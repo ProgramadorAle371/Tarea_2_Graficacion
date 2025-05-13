@@ -3,17 +3,20 @@
 
 Requisitos
 Python 3.x
-Pillow: Para manipular imágenes GIF.
-NumPy: Para realizar cálculos matemáticos.
-OpenCV: Para el procesamiento de imágenes.
-Pandas: Para estructurar los resultados.
-Matplotlib: Para visualizar las imágenes.
 
+Librerias en caso de no tenerlas usar los comandos en una terminal o CMD
+Pillow: Para manipular imágenes GIF. (pip install pillow)
+NumPy: Para realizar cálculos matemáticos. (pip install numpy)
+OpenCV: Para el procesamiento de imágenes. (pip install opencv-python-headless)
+Pandas: Para estructurar los resultados. (pip install pandas)
+Matplotlib: Para visualizar las imágenes. (pip install matplotlib)
+
+____________________________________________________________________________________________________________________
 Uso del programa 1contador_pixeles.py
 Cómo usar el programa
 Coloca la imagen que deseas analizar en el mismo directorio que el archivo del programa.
 
-Edita el archivo y cambia el nombre de la imagen en la línea:
+Edita el archivo y cambia el nombre de la imagen en la línea 5:
 
 Sustituye 'camellor.gif' por el nombre de tu archivo de imagen.
 
@@ -24,6 +27,8 @@ Resultados: El programa imprimirá en la consola:
 La cantidad total de píxeles en la imagen.
 La cantidad de píxeles que pertenecen al objeto (valor 1).
 La cantidad de píxeles que pertenecen al fondo (valor 0).
+______________________________________________________________________________________________________________________
+
 
 Uso del programa 2transformaciones_escala.py
 Cómo usar el programa
