@@ -10,7 +10,7 @@ NumPy: Para realizar cálculos matemáticos. (pip install numpy)
 OpenCV: Para el procesamiento de imágenes. (pip install opencv-python-headless)
 Pandas: Para estructurar los resultados. (pip install pandas)
 Matplotlib: Para visualizar las imágenes. (pip install matplotlib)
-
+skimage: Para el punto de Ver el contorno (pip install scikit-image)
 ____________________________________________________________________________________________________________________
 Uso del programa 1contador_pixeles.py
 Cómo usar el programa
@@ -51,4 +51,31 @@ El programa procesará todas las imágenes con extensiones válidas (.png, .jpg,
 Para cada imagen, se calcularán los momentos invariantes y se mostrarán en la consola.
 También se visualizará la versión binarizada de cada imagen.
 
+_________________________________________________________________________________________________________________________
 
+
+Uso del programa 5 dibujadordd.py
+
+tener las librerias instaladas
+Colocar las imagenes GIF y el archivo en la misma carpeta
+
+En la linea 6 cambiar el nombre por el de la imagen
+
+Ejecutar desde la termial o un entorno de desarrollo como visual studio code
+
+Resultados
+aparecera una ventana emergente con la imagen graficada
+
+_________________________________________________________________________________________________________________________
+
+Uso del programa 6Contorno.py
+
+tener las librerias instaladas
+Colocar las imagenes GIF y el archivo en la misma carpeta
+
+En la linea 7 cambiar el nombre por el de la imagen
+
+Ejecutar desde la termial o un entorno de desarrollo como visual studio code
+
+Resultados
+aparecera una ventana emergente con la imagen graficada con el contorno en rojo
