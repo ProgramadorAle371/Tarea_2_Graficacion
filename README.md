@@ -3,17 +3,20 @@
 
 Requisitos
 Python 3.x
-Pillow: Para manipular imágenes GIF.
-NumPy: Para realizar cálculos matemáticos.
-OpenCV: Para el procesamiento de imágenes.
-Pandas: Para estructurar los resultados.
-Matplotlib: Para visualizar las imágenes.
 
+Librerias en caso de no tenerlas usar los comandos en una terminal o CMD
+Pillow: Para manipular imágenes GIF. (pip install pillow)
+NumPy: Para realizar cálculos matemáticos. (pip install numpy)
+OpenCV: Para el procesamiento de imágenes. (pip install opencv-python-headless)
+Pandas: Para estructurar los resultados. (pip install pandas)
+Matplotlib: Para visualizar las imágenes. (pip install matplotlib)
+skimage: Para el punto de Ver el contorno (pip install scikit-image)
+____________________________________________________________________________________________________________________
 Uso del programa 1contador_pixeles.py
 Cómo usar el programa
 Coloca la imagen que deseas analizar en el mismo directorio que el archivo del programa.
 
-Edita el archivo y cambia el nombre de la imagen en la línea:
+Edita el archivo y cambia el nombre de la imagen en la línea 5:
 
 Sustituye 'camellor.gif' por el nombre de tu archivo de imagen.
 
@@ -24,6 +27,8 @@ Resultados: El programa imprimirá en la consola:
 La cantidad total de píxeles en la imagen.
 La cantidad de píxeles que pertenecen al objeto (valor 1).
 La cantidad de píxeles que pertenecen al fondo (valor 0).
+______________________________________________________________________________________________________________________
+
 
 Uso del programa 2transformaciones_escala.py
 Cómo usar el programa
@@ -46,4 +51,31 @@ El programa procesará todas las imágenes con extensiones válidas (.png, .jpg,
 Para cada imagen, se calcularán los momentos invariantes y se mostrarán en la consola.
 También se visualizará la versión binarizada de cada imagen.
 
+_________________________________________________________________________________________________________________________
 
+
+Uso del programa 5 dibujadordd.py
+
+tener las librerias instaladas
+Colocar las imagenes GIF y el archivo en la misma carpeta
+
+En la linea 6 cambiar el nombre por el de la imagen
+
+Ejecutar desde la termial o un entorno de desarrollo como visual studio code
+
+Resultados
+aparecera una ventana emergente con la imagen graficada
+
+_________________________________________________________________________________________________________________________
+
+Uso del programa 6Contorno.py
+
+tener las librerias instaladas
+Colocar las imagenes GIF y el archivo en la misma carpeta
+
+En la linea 7 cambiar el nombre por el de la imagen
+
+Ejecutar desde la termial o un entorno de desarrollo como visual studio code
+
+Resultados
+aparecera una ventana emergente con la imagen graficada con el contorno en rojo
